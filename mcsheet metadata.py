@@ -4,6 +4,7 @@ import fnmatch
 import audio_metadata
 import re
 
+#hardcoded for now
 pattern = 'Pixel Terror & DYSON - Dilemma*'
 track_title = "Mirrors";
 # variables
