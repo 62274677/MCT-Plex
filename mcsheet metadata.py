@@ -19,6 +19,7 @@ gc = gspread.service_account();
 sheet_catalog = gc.open_by_url('https://docs.google.com/spreadsheets/d/116LycNEkWChmHmDK2HM2WV85fO3p3YTYDATpAthL8_g/edit');
 sheet_subgenre = gc.open_by_url('https://docs.google.com/spreadsheets/d/13reh863zpVJEnFR8vFJ7dRhaln86ETk9etbE7tFHS2g/edit')
 
+#list of dicts
 catalog = sheet_catalog.worksheet("Catalog").get_all_records();
 
 # get files
