@@ -52,7 +52,7 @@ for path,dirs,files in os.walk('/Users/622/Downloads'):
                     else:
                         track_B=""
               
-# playing with metadata to make sure it works; havent gottten further yet
+# playing with metadata to make sure it works; haven't gotten further yet
 # track_metadata.tags.album.insert(1,"he")
 # print(track_metadata.tags)
 # del track_metadata.tags.album[1]
